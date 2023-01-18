@@ -420,10 +420,14 @@ body {
   font-weight: 600;
   color: var(--grayishBlue);
 }
-#topPopular div h5 {
+#topPopular div h5 a {
   font-size: 1.2rem;
   font-weight: 600;
   color: var(--darkGrayishBlue);
+  text-decoration: none;
+}
+#topPopular div h5 a:hover {
+  color: var(--softRedColor);
 }
 #topPopular div p {
   font-size: 1rem;
